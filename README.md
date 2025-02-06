@@ -35,7 +35,7 @@ O objetivo final é minimizar a quantidade de servidores que a notícia falsa po
 
 # Instruções de Uso do Algoritmo de Busca Local Iterada (ILS) para Fake News
 
-Este documento fornece as instruções necessárias para executar o algoritmo de Busca Local Iterada (ILS) aplicado à minimização da disseminação de fake news. Siga os passos abaixo para configurar e executar o programa.
+Instruções necessárias para executar o algoritmo de Busca Local Iterada (ILS) aplicado à minimização da disseminação de fake news. Siga os passos abaixo para configurar e executar o programa.
 
 ## Entradas Necessárias
 
