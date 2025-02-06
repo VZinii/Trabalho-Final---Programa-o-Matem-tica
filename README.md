@@ -33,6 +33,42 @@ Um recurso i é alocado no menor tempo βi.
 
 O objetivo final é minimizar a quantidade de servidores que a notícia falsa pode alcançar em um tempo menor ou igual a T.
 
+# Instruções de Uso do Algoritmo de Busca Local Iterada (ILS) para Fake News
+
+Este documento fornece as instruções necessárias para executar o algoritmo de Busca Local Iterada (ILS) aplicado à minimização da disseminação de fake news. Siga os passos abaixo para configurar e executar o programa.
+
+## Entradas Necessárias
+
+Ao iniciar o programa, serão solicitadas as seguintes entradas:
+
+1. **Nome do Arquivo de Resultado Final**  
+   - **Prompt:**  
+     ```
+     Digite o nome do arquivo que será gravado o resultado final do algoritmo:
+     ```  
+   - **Descrição:** Informe o nome do arquivo (por exemplo, `resultado.txt`) onde o algoritmo salvará o resultado final, que corresponde ao número de servidores afetados pela fake news conforme a melhor solução encontrada.
+
+2. **Quantidade Máxima de Iterações**  
+   - **Prompt:**  
+     ```
+     Digite o quantidade máxima de iterações:
+     ```  
+   - **Descrição:** Especifique o número máximo de iterações que o algoritmo deverá executar. Este parâmetro determina a profundidade da busca local e, consequentemente, o tempo de execução.
+
+3. **Quantidade de Perturbações**  
+   - **Prompt:**  
+     ```
+     Digite a quantidade de perturbações:
+     ```  
+   - **Descrição:** Indique quantas perturbações (trocas intensas) serão realizadas quando a busca local não conseguir melhorar a solução. Este valor auxilia o algoritmo a escapar de ótimos locais e explorar novas regiões do espaço de soluções.
+
+4. **Nome do Arquivo de Instância**
+   - **Prompt:**  
+     ```
+     Digite o nome do arquivo de instância:
+     ```  
+   - **Descrição:** Forneça o nome do arquivo que contém os dados da instância do problema.
+
 # Estrutura do Repositório
 
 - Colab Notebook contendo o código fonte que contém a Metaheurística que resolve o problema
